@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppings, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.bgdesigns {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    font-size: 20rem;
+    font-weight: bolder;
+    z-index: -1;
+}
+
+.bgdesigns span {
+    /* background: linear-gradient(90deg, #296073, #adc5cf); */
+    background: linear-gradient(90deg, #845ec2, #adc5cf, #4b4453); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+body {
+    overflow: hidden;
+    min-height: 100%;
+    /* background: linear-gradient(90deg, #BED1D9, #E1EFEF); */
+    background: black;
+}
+
+/* start position of top text */
+.bgdesigns .toptext {
+    position: absolute;
+    top: 100px; /* Remove extra closing comment */
+}
+
+.bgdesigns .secondtext {
+    position: absolute;
+    top: 400px; /* Adjust this value as needed to position below toptext */
+    right: 0;
+}
+
+.bgdesigns .thirdtext {
+    position: absolute;
+    bottom: 400px; /* Corrected 'Bottom' to 'bottom' */
+    left: 0;
+}
+/* start position of bottom text*/
+.bgdesigns .bottomtext {
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+} 

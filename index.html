@@ -51,6 +51,31 @@
             </div>
         </div>
     </nav>
+
+    <header class="d-flex justify-content-center align-items-center text-center">
+        <div class="container">
+        <div class="heroImg">
+            <img src="assets/images/Heros.webp" alt="hero image">
+        </div>
+        <div class="episodes">
+            <a href="#episodes" class="btn glow">Season 1</a>
+        </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container mt-3">
+            <button id="togglePdfBtn" class="btn btn-primary" onclick="togglePdf()">Open the PDF</button>
+        </div>
+        <div id="pdfViewer" class="scroll-container">
+            <iframe
+                src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://infolab.stanford.edu/pub/papers/google.pdf#toolbar=0&scrollbar=0"
+                frameBorder="0" scrolling="auto" class="pdf-iframe" title="PDF Viewer" aria-label="PDF Viewer"></iframe>
+        </div>
+    </main>  
+
+
     
 
 
