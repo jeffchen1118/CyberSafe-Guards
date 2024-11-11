@@ -1,0 +1,221 @@
+
+.bgdesigns .toptext {
+    animation: toptextanim 5s ease infinite;
+    -webkit-animation: toptextanim 5s ease infinite; /* Added for compatibility */
+    opacity: 0;  /*make words dissapear */
+}
+
+@keyframes toptextanim {
+  
+    0% {
+        transform: translateX(300px);
+        opacity: 1;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(30deg, 45deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes toptextanim { /* Added for compatibility */
+  
+    0% {
+        transform: translateX(300px);
+        opacity: 1;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(30deg, 45deg);
+        opacity: 0;
+    }
+}
+
+.bgdesigns .secondtext {
+    animation: secondtextanim 5s ease infinite;
+    -webkit-animation: secondtextanim 5s ease infinite; /* Added for compatibility */
+    opacity: 0;  /* make words dissapear*/
+} 
+
+@keyframes secondtextanim {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(330deg, 315deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes secondtextanim { /* Added for compatibility */
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(330deg, 315deg);
+        opacity: 0;
+    }
+}
+
+.bgdesigns .thirdtext {
+    animation: thirdtextanim 5s 0.5s ease infinite;
+    -webkit-animation: thirdtextanim 5s 0.5s ease infinite; /* Added for compatibility */
+    opacity: 0;  /* make words dissapear*/
+}
+
+@keyframes thirdtextanim {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(30deg, 20deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes thirdtextanim { /* Added for compatibility */
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(30deg, 20deg);
+        opacity: 0;
+    }
+}
+
+.bgdesigns .bottomtext {
+    animation: bottomtextanim 5s 0.5s ease infinite;
+    -webkit-animation: bottomtextanim 5s 0.5s ease infinite; /* Added for compatibility */
+    opacity: 0;  /* make words dissapear*/
+}
+
+@keyframes bottomtextanim {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(330deg, 340deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes bottomtextanim { /* Added for compatibility */
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: skew(330deg, 340deg);
+        opacity: 0;
+    }
+}
+
+nav {
+    animation: navanim 2s 1s ease;
+}
+
+@keyframes navanim {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+header .heroImg {
+    animation: heroImganim 2s ease;
+}
+
+@keyframes heroImganim {
+    0% {
+        transform: translateY(-2000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+header .episodes {
+    animation: episodesanim 2s 1s ease;
+}
+
+@keyframes episodesanim {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+/* font glow effect credit w3C */
+.glow {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center; 
+    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 1s ease-in-out infinite alternate; /* Added for compatibility */
+}
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@-webkit-keyframes glow { /* Added for compatibility */
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
