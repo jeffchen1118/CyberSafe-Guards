@@ -15,7 +15,7 @@
     width: 100%;
     height: 100vh;
     position: fixed; /* Changed from absolute to fixed */
-    font-size: 20rem;
+    font-size: 10rem;
     font-weight: bolder;
     z-index: -1;
 }
@@ -42,19 +42,19 @@ body {
 
 .bgdesigns .secondtext {
     position: absolute;
-    top: 15rem; /* Adjust this value as needed to position below toptext */
+    top: 13rem; /* Adjust this value as needed to position below toptext */
     right: 0;
 }
 
 .bgdesigns .thirdtext {
     position: absolute;
-    top: 30rem; /* Corrected 'Bottom' to 'bottom' */
+    top: 25rem; /* Corrected 'Bottom' to 'bottom' */
     left: 0;
 }
 /* start position of bottom text*/
 .bgdesigns .bottomtext {
     position: absolute;
-    top: 45rem;
+    top: 37rem;
     right: 0px;
 } 
 
@@ -120,11 +120,104 @@ header .heroImg img {
     width: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+    .bgdesigns {
+        font-size: 8rem;
+    }
 
+
+    /* start position of top text */
+    .bgdesigns .toptext {
+    position: absolute;
+    top: 5rem; /* Remove extra closing comment */
+
+}
+
+.bgdesigns .secondtext {
+    position: absolute;
+    top: 12rem; /* Adjust this value as needed to position below toptext */
+    right: 0;
+}
+
+.bgdesigns .thirdtext {
+    position: absolute;
+    top: 18rem; /* Corrected 'Bottom' to 'bottom' */
+    left: 0;
+}
+/* start position of bottom text*/
+.bgdesigns .bottomtext {
+    position: absolute;
+    top: 27rem;
+    right: 0;
+} 
+}
+
+
+@media screen and (max-width: 768px) {
+    .bgdesigns {
+        font-size: 5rem;
+    }
+
+
+    /* start position of top text */
+    .bgdesigns .toptext {
+    position: absolute;
+    top: 5rem; /* Remove extra closing comment */
+
+}
+
+.bgdesigns .secondtext {
+    position: absolute;
+    top: 11rem; /* Adjust this value as needed to position below toptext */
+    right: 0;
+}
+
+.bgdesigns .thirdtext {
+    position: absolute;
+    top: 16rem; /* Corrected 'Bottom' to 'bottom' */
+    left: 0;
+}
+/* start position of bottom text*/
+.bgdesigns .bottomtext {
+    position: absolute;
+    top: 24rem;
+    right: 0;
+} 
+}
+@media screen and (max-width: 578px) {
+    .bgdesigns {
+        font-size: 3rem;
+    }
+        /* start position of top text */
+.bgdesigns .toptext {
+    position: absolute;
+    top: 5rem; /* Remove extra closing comment */
+
+}
+
+.bgdesigns .secondtext {
+    position: absolute;
+    top: 11rem; /* Adjust this value as needed to position below toptext */
+    right: 0;
+}
+
+.bgdesigns .thirdtext {
+    position: absolute;
+    top: 18rem; /* Corrected 'Bottom' to 'bottom' */
+    left: 0;
+}
+/* start position of bottom text*/
+.bgdesigns .bottomtext {
+    position: absolute;
+    top: 23rem;
+    right: 0;
+} 
+
+}
 
 @media screen and (max-width: 340px) {
     .bgdesigns {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     /* start position of top text */
@@ -149,7 +242,7 @@ header .heroImg img {
 .bgdesigns .bottomtext {
     position: absolute;
     top: 23rem;
-    right: 0px;
+    right: 0;
 } 
 }
 
