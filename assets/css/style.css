@@ -37,24 +37,24 @@ body {
 /* start position of top text */
 .bgdesigns .toptext {
     position: absolute;
-    top: 100px; /* Remove extra closing comment */
+    top: 3rem; /* Remove extra closing comment */
 }
 
 .bgdesigns .secondtext {
     position: absolute;
-    top: 400px; /* Adjust this value as needed to position below toptext */
+    top: 15rem; /* Adjust this value as needed to position below toptext */
     right: 0;
 }
 
 .bgdesigns .thirdtext {
     position: absolute;
-    bottom: 400px; /* Corrected 'Bottom' to 'bottom' */
+    top: 30rem; /* Corrected 'Bottom' to 'bottom' */
     left: 0;
 }
 /* start position of bottom text*/
 .bgdesigns .bottomtext {
     position: absolute;
-    bottom: 100px;
+    top: 45rem;
     right: 0px;
 } 
 
@@ -82,7 +82,7 @@ nav {
 .navbar-nav li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -119,3 +119,37 @@ header .heroImg img {
     height: 100%;
     width: 100%;
 }
+
+
+
+@media screen and (max-width: 340px) {
+    .bgdesigns {
+        font-size: 3rem;
+    }
+
+    /* start position of top text */
+.bgdesigns .toptext {
+    position: absolute;
+    top: 5rem; /* Remove extra closing comment */
+
+}
+
+.bgdesigns .secondtext {
+    position: absolute;
+    top: 11rem; /* Adjust this value as needed to position below toptext */
+    right: 0;
+}
+
+.bgdesigns .thirdtext {
+    position: absolute;
+    top: 18rem; /* Corrected 'Bottom' to 'bottom' */
+    left: 0;
+}
+/* start position of bottom text*/
+.bgdesigns .bottomtext {
+    position: absolute;
+    top: 23rem;
+    right: 0px;
+} 
+}
+
