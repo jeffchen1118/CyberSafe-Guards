@@ -226,7 +226,7 @@ header .episodes {
 
 /* font glow effect credit w3C */
 .glow {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     color: #fff;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
@@ -257,7 +257,7 @@ header .episodes {
 }
 
 .glow-green {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     color: #fff;
     text-align: center;
     animation: glow-green 1s ease-in-out infinite alternate;

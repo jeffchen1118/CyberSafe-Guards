@@ -128,6 +128,8 @@ header .heroImg img {
     width: 100%;
 }
 
+
+
 /* mainstory frame */
 .frameBorder {
     border: 1rem solid lightblue; /* Changed border color to light blue */
@@ -138,6 +140,17 @@ header .heroImg img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-style: solid; /* Ensure border is visible */
 }
+
+@media screen and (min-width: 1200px) {
+    .mainstory img {
+        max-width: 500px;
+        height: auto;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 1400px) {
     .bgdesigns {
