@@ -37,9 +37,10 @@ body {
     background: black;
 }
 
+
 /* start position of top text */
 .bgdesigns .toptext {
-    position: absolute;
+    position: fixed;
     top: 3rem; /* Remove extra closing comment */
 }
 
@@ -114,6 +115,7 @@ header .heroImg img {
     min-width: 320px;
 }
 
+
 .scroll-container {
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -124,6 +126,17 @@ header .heroImg img {
 .pdf-iframe {
     height: 100%;
     width: 100%;
+}
+
+/* mainstory frame */
+.frameBorder {
+    border: 1rem solid lightblue; /* Changed border color to light blue */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-style: solid; /* Ensure border is visible */
 }
 
 @media screen and (max-width: 1400px) {
