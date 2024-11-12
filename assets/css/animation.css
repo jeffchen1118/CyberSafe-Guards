@@ -256,6 +256,36 @@ header .episodes {
     }
 }
 
+.glow-green {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    animation: glow-green 1s ease-in-out infinite alternate;
+    -webkit-animation: glow-green 1s ease-in-out infinite alternate;
+    /* Added for compatibility */
+}
+
+@keyframes glow-green {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00, 0 0 80px #00cc00;
+    }
+}
+
+@-webkit-keyframes glow-green {
+    /* Added for compatibility */
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00, 0 0 80px #00cc00;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
 
