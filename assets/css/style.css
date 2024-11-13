@@ -141,6 +141,12 @@ header .heroImg img {
     border-style: solid; /* Ensure border is visible */
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1200px) {
     .mainstory img {
         max-width: 500px;
@@ -149,11 +155,38 @@ header .heroImg img {
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .episodes .card-body{
+        height: 382px;
+    }
+    
+}
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+    #episodes .card-body{
+        height: 574px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #episodes .card-body{
+        height: 474px;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    #episodes .card-body{
+        height: 430px;
+    }
+    
+}
 
 
 
 @media screen and (max-width: 1400px) {
-    .bgdesigns {
+    #bgdesigns {
         font-size: 8rem;
     }
 
