@@ -6,7 +6,7 @@
 The **Amazing CyberSafeGuards** is a fictional TV series produced by Amazing Production Studio in Doncaster. The TV series is broadcast nationwide to raise awareness of children and preteen’s online safety issues with their parents, such as cyberbullying, in-game purchases, identity theft and online grooming. The producer aims to provide educational and fun activities to help parents discuss the issues kids might face to help protect their kids’ safety in the digital world.  
 <br>
 
-![screen shot of landing page] (docs/landingpage.webp)
+![screen shot of landing page docs/landingpage.webp] (docs/landingpage.webp)
 
 ---
 
@@ -61,6 +61,14 @@ The site was developed to provide a storyline board of each episode with discuss
 <summary>Wireframe - Homepage Desktop & Mobile</summary>  
 
 ![homepage wireframe-desktop](docs/wireframe.png)
+
+
+### Screenshots
+![desktop image docs/desktop.png](docs/landingpdage.webp)
+
+![Iphone mini docs/tablet.png](docs/tablet.png)
+
+![GalaxyX docs/GalaxyZ.png](docs/GalaxyZ.png)
 
 
 
@@ -119,19 +127,20 @@ I had planned for this site to be accessible and working on all screen sizes. I 
 Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
 - Chrome   
 - Microsoft Edge  
+- lighthouse
 
-OTHER TESTING STUFF?!?!
+
 
 ### **HTML Validation using W3C Validation**  
 <details open>
 <summary>Index/landing page HTML validation</summary>  
 
-![screenshot of index page w3c html validation](docs/w3c_index.png)
+![index test docs/w3c_index.png](docs/w3c_index.png)
 </details>   
 <details>
 <summary>Episode HTML validation</summary>  
 
-![screenshot of Cyberbulling w3c html validation](docs/w3cepisodes.png)
+![docs/w3cepisodes.png](docs/w3cepisodes.png)
 </details>  
   
 <br>  
@@ -141,11 +150,15 @@ OTHER TESTING STUFF?!?!
 <details>
 <summary>CSS validation</summary>  
 
-![screenshot of CSS1 validation](docs/w3c_stylecss.png)
+![docs/w3c_styles.png](docs/w3c_styles.png)
 - contains 4 vendor specific warnings which was added via copilot for compatibility with older browser 
-![screenshot of CSS2 validation](docs/w3c_animationcss.png)
+![docs/w3c_animationcss.png](docs/w3c_animationcss.png)
 - contains 22 vendor specific warnings which was added via copilot for compatibility with older browser 
 </details>   
+
+### **lighthouse performance valiation** 
+![light house docs/lighthouse.png](docs/lighthouse.png)
+
 
 <br>  
 
