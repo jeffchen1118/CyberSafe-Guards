@@ -6,7 +6,7 @@
 The **Amazing CyberSafeGuards** is a fictional TV series produced by Amazing Production Studio in Doncaster. The TV series is broadcast nationwide to raise awareness of children and preteen’s online safety issues with their parents, such as cyberbullying, in-game purchases, identity theft and online grooming. The producer aims to provide educational and fun activities to help parents discuss the issues kids might face to help protect their kids’ safety in the digital world.  
 <br>
 
-![screen shot of landing page docs/landingpage.webp] (docs/landingpage.webp)
+![screen shot of landing page docs/landingpage.webp](docs/desktop.png)
 
 ---
 
@@ -60,11 +60,11 @@ The site was developed to provide a storyline board of each episode with discuss
 <details open>
 <summary>Wireframe - Homepage Desktop & Mobile</summary>  
 
-![homepage wireframe-desktop](docs/wireframe.png)
+![homepage wireframe-desktop](docs/desktop.png)
 
 
 ### Screenshots
-![desktop image docs/desktop.png](docs/landingpdage.webp)
+![desktop image docs/](docs/landingpdage.webp)
 
 ![Iphone mini docs/tablet.png](docs/tablet.png)
 
