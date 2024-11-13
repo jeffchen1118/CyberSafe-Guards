@@ -150,29 +150,24 @@ OTHER TESTING STUFF?!?!
 ## Credits  
   
 ### **Content References**
-- All content written for the website is by myself, is purely fictional, and for educational purposes only.
+- All content written for the website is purely fictional, and for educational purposes only.
 - [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
 - [W3Schools](https://www.w3schools.com/) for additional learning material and help with bootstrap cards.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for flexbox tutorials and guidance.
 - Amy from Code Institute for helping me with the centering the navbar toggle on mobile view and all additional help.
 - [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements) guidance on margin issues 
 - [Bootsnip](https://bootsnipp.com/snippets/7nmOW) for bootstrap contact form component
-- [NSPCC](https://www.nspcc.org.uk/) Design layout inspired by NSPCC homepage.
+- [internetmatters.org](https://www.internetmatters.org/issues/cyberbullying/) and abudant resource on this site for parents to learn children and preteens concerning issues on cyber space safety. 
+ 
 
 
 ### **Media References**  
+- [Albert Html Camp](https://www.youtube.com/watch?v=RyF8rzeYkgQ ) remove.bg for remove picture background for Hero image ,Homepage heroimage visual effect inspiration 
   
-- [Adobe Stock](https://stock.adobe.com/) for the hero image. Credit to graphic designer: Macrovector.
-- Adobe Firefly for generating all other images with AI.
-- [Iconify Design](https://iconify.design/) for all the icons used in this site.
-- [logo.com](https://logo.com/dashboard/your-logo-files) for the favicon used for this site.
-- [Hotpot.ai](https://hotpot.ai/icon-resizer) for resizing the favicons used for this site.
+ - [Font Animation inspiration](https://blog.hubspot.com/website/css-animation-examples) 30 Css animation examples 
 
 
 ### **Acknowledgements** 
-- I would like to acknowledge my Code Institute facilitator, Amy Richardson, for her calming presence and advice.
-- My family and friends for testing my work and offering positive feedback and the invaluable OAP perspective. 
--Shout out to Tayla Ball for keeping me sane and checking in with me.
--Rowan, the dog, for being available for cuddles when needed.
-
+My Facilitator and tutors from CodeInstitute: 
+Amy, Dillan, Spencer and Roo thank you for the enthusiastic learning support.  Also my friend and family who always support me.    
 
