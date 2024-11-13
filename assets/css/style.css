@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: Poppings, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .section {
     padding: 4rem 0;
@@ -32,7 +34,7 @@
 
 body {
     /* overflow: hidden; */
-    min-height: 100%;
+    min-height: 100%; 
     /* background: linear-gradient(90deg, #BED1D9, #E1EFEF); */
     background: black;
 }
@@ -147,15 +149,8 @@ header .heroImg img {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 1200px) {
-    .mainstory img {
-        max-width: 500px;
-        height: auto;
-    }
-}
 
-
-@media screen and (min-width: 768px) and (max-width: 998px) {
+@media screen and (min-width: 768px) {
     .episodes .card-body{
         height: 382px;
     }
@@ -173,12 +168,20 @@ header .heroImg img {
     #episodes .card-body{
         height: 474px;
     }
+    .mainstory img {
+        max-width: 500px;
+        height: auto;
+    }
     
 }
 
 @media screen and (min-width: 1400px) {
     #episodes .card-body{
         height: 430px;
+    }
+    .mainstory img {
+        max-width: 500px;
+        height: auto;
     }
     
 }
