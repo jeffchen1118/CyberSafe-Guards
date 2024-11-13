@@ -63,6 +63,7 @@ The site was developed to provide a storyline board of each episode with discuss
 ![homepage wireframe-desktop](docs/wireframe.png)
 
 
+
 ## Technologies Used    
 
 ### **Languages Used**   
@@ -132,13 +133,12 @@ OTHER TESTING STUFF?!?!
 
 ![screenshot of Cyberbulling w3c html validation](docs/w3cepisodes.png)
 </details>  
-<details>
   
 <br>  
 
 ### **CSS Validation using W3C Validation** 
 
-<details open>
+<details>
 <summary>CSS validation</summary>  
 
 ![screenshot of CSS1 validation](docs/w3c_stylecss.png)
