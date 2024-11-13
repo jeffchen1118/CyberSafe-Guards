@@ -102,7 +102,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 ### **Initial testing plan**
 
-I had planned for this site to be accessible and legible on all screen sizes. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:  
+I had planned for this site to be accessible and working on all screen sizes. I used Chrome Dev Tools to test, tweak and debug in the early stages. Tools or devices used included:  
 - Huawei monitor(1920 X 1080)  
 - Philips 32 Inch QFD Monitor
 - Xiami GT 5G phone
@@ -121,27 +121,26 @@ OTHER TESTING STUFF?!?!
 <details open>
 <summary>Index/landing page HTML validation</summary>  
 
-![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
+![screenshot of index page w3c html validation](docs/w3c_index.png)
 </details>   
 <details>
-<summary>Menu page HTML validation</summary>  
+<summary>Episode HTML validation</summary>  
 
-![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
+![screenshot of Cyberbulling w3c html validation](docs/w3cepisodes.png)
 </details>  
 <details>
-<summary>Contact page HTML validation</summary>  
-
-![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
-</details>  
   
 <br>  
 
 ### **CSS Validation using W3C Validation** 
 
 <details open>
-<summary>SCOOPS CSS validation</summary>  
+<summary>CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+![screenshot of CSS1 validation](docs/w3c_stylecss.png)
+- contains 4 vendor specific warnings which was added via copilot for compatibility with older browser 
+![screenshot of CSS2 validation](docs/w3c_animationcss.png)
+- contains 22 vendor specific warnings which was added via copilot for compatibility with older browser 
 </details>   
 
 <br>  
