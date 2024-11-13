@@ -56,7 +56,11 @@ The site was developed to provide a storyline board of each episode with discuss
 - in the Episode page there is the villain image that represents the cyber safety issue of the topic and offers a holistic information source link. Then the main story scene provide further links for the questions asked that help parents and kids to discuss. 
 - For the Shop section, it provides a simple and fun layout, the toy will wiggle once hovers on it also is accessible from navbar.  
 
+### Wireframes  
+<details open>
+<summary>Wireframe - Homepage Desktop & Mobile</summary>  
 
+![homepage wireframe-desktop](docs/wireframe.png)
 
 
 ## Technologies Used    
